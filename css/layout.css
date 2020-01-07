@@ -1,0 +1,131 @@
+/*common class sytle*/
+/*包裹元素*/
+.link {
+    color: #6b7278;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.nav-site {
+    /*height: 45px;*/
+    background-color: rgb(243, 245, 247);
+}
+
+/*clearf flot*/
+
+.cl:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.cl {
+    *zoom: 1;
+}
+
+
+/*下拉框*/
+
+/*浮动类*/
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+
+
+/*showhide*/
+
+.fadeOut {
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+.transition {
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.slideUpDownCollapse {
+    height: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.slideLeftRightCollapse {
+    width: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 125px;
+    background-color: #f3f5f7;
+    /*overflow: hidden;*/
+}
+
+/*nav*/
+
+nav.nav-bar {
+    height: 48px;
+    background-color: #07111b;
+    line-height: 48px;
+    margin-bottom: 8px;
+}
+
+.text-hidden {
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+/*鼠标停留后的样式*/
+[class*="-active"] {
+    background-color: #fff !important;
+    color: #f01414 !important;
+}
+
+.dropdown-layer {
+    position: absolute;
+    display: none;
+    /*display: none;*/
+    background-color: #fff;
+}
+
+/*common slider*/
+.slider-fade .slider-item {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-slide .slider-item {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+li.floor-divider {
+
+    width: 1px;
+    height: 14px;
+    margin: 22px 16px 0 0;
+    background-color: #d9dde1;
+}
