@@ -1,2 +1,1 @@
-"pc版电商商城" 
-"# pc-mall"  git init git add README.md git commit -m "first commit" git remote add origin https://github.com/lagougou/pc-mall.git git push -u origin master
+## 鐢靛晢棣栭〉
